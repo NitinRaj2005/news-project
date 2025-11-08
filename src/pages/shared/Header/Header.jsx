@@ -10,34 +10,47 @@ const Header = () => {
 
   return (
     <div>
-      {/* logo section */}
+      {/* Logo + Title Section */}
       <div className="py-5 text-center">
-        <img className="mx-auto" src={logo} alt="website logo" />
+        <h1
+          className="text-6xl md:text-7xl font-bold"
+          style={{
+            fontFamily: "'Playfair Display', serif",
+            letterSpacing: "2px",
+            textTransform: "uppercase",
+          }}
+        >
+          The News Times
+        </h1>
+
         <p className="text-slate-700 text-sm py-2">
           Journalism without fear and favour
         </p>
-        <p className="font-medium">{moment().format("dddd, MMMM Do, YYYY")}</p>
-      </div>
-      {/* marquee section */}
 
-      <div className="flex bg-slate-300 rounded-md p-3  gap-2">
+        <p className="font-medium">
+          {moment().format("dddd, MMMM Do, YYYY")}
+        </p>
+      </div>
+
+      {/* Marquee Section */}
+      <div className="flex bg-slate-300 rounded-md p-3 gap-2">
         <Link to="/">
-          <button className="btn btn-outline btn-error border-spacing-0 font-bold  shadow-md shadow-slate-700">
+          <button className="btn btn-outline btn-error border-spacing-0 font-bold shadow-md shadow-slate-700">
             Latest
           </button>
         </Link>
 
-        <Marquee speed={120} className="font-semibold" pauseOnHover="true">
+        <Marquee speed={120} className="font-semibold" pauseOnHover={true}>
           “Creativity is allowing yourself to make mistakes. Art is knowing
           which ones to keep.” – Scott Adams{" "}
-          <p className="mx-20">
+          <span className="mx-20">
             “Creativity is allowing yourself to make mistakes. Art is knowing
             which ones to keep.” – Scott Adams
-          </p>
+          </span>
         </Marquee>
       </div>
-      {/* navbar section */}
-      
+
+      {/* Navbar section (if any) */}
     </div>
   );
 };

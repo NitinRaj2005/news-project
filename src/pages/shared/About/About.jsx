@@ -2,81 +2,93 @@ import React from "react";
 
 const About = () => {
   return (
-    <div>
-      <h2 className="text-center font-bold text-3xl text-teal-400 mb-10">Welcome to our "About" section!</h2>
-      <p className="my-2 font-semibold text-xl">
-        At The dragon news, we are dedicated to delivering reliable, timely, and
-        engaging news content to our readers. Our "About" section is designed to
-        give you a glimpse into who we are, our mission, and the values that
-        drive us.
+    <div className="max-w-4xl mx-auto py-10 px-5 leading-7 text-slate-800">
+      <h1 className="text-4xl font-bold text-center mb-8">
+        About The News Times
+      </h1>
+
+      <p className="mb-6">
+        At <strong>The News Times</strong>, we are dedicated to delivering
+        reliable, timely, and engaging news content to our readers. Our
+        "About" section offers insight into who we are, our mission, and the
+        values that guide our work.
       </p>
 
-      <p className="my-2 font-semibold text-xl">
-        Our Commitment: We are committed to providing accurate and unbiased news
-        coverage across a wide range of topics, including local, national, and
-        international news, politics, business, technology, lifestyle, sports,
-        and more. We strive to present information in a fair and balanced
-        manner, giving you the tools to form your own opinions and make informed
-        decisions.
+      {/* Our Commitment */}
+      <h2 className="text-2xl font-semibold mb-2">Our Commitment</h2>
+      <p className="mb-6">
+        We are committed to providing accurate and unbiased news coverage across
+        a wide range of topics, including local, national, and international
+        news, politics, business, technology, lifestyle, sports, and more. Our
+        goal is to present information in a fair and balanced manner, empowering
+        you to form your own opinions and make informed decisions.
       </p>
 
-      <p className="my-2 font-semibold text-xl">
-        Quality Journalism: At The dragon news, quality journalism is at the
-        core of what we do. Our team of experienced journalists and writers work
-        diligently to gather and verify information, ensuring that our news
-        stories are reliable, trustworthy, and uphold the highest journalistic
-        standards. We take pride in delivering comprehensive and insightful
-        reporting that goes beyond the surface to provide meaningful context and
-        analysis.
+      {/* Quality Journalism */}
+      <h2 className="text-2xl font-semibold mb-2">Quality Journalism</h2>
+      <p className="mb-6">
+        At <strong>The News Times</strong>, quality journalism is the core of
+        what we do. Our experienced journalists and writers work diligently to
+        gather and verify information, ensuring that every story we publish is
+        reliable, trustworthy, and meets the highest journalistic standards. We
+        take pride in providing comprehensive reporting with meaningful context
+        and analysis.
       </p>
 
-      <p className="my-2 font-semibold text-xl">
-        Diverse Perspectives: We believe in the power of diverse perspectives.
-        Our platform serves as a space for voices from various backgrounds,
-        cultures, and viewpoints to be heard. We are committed to fostering
-        inclusivity and representing the diverse communities we serve, promoting
-        dialogue, understanding, and empathy.
+      {/* Diverse Perspectives */}
+      <h2 className="text-2xl font-semibold mb-2">Diverse Perspectives</h2>
+      <p className="mb-6">
+        We believe in the power of diverse perspectives. Our platform is a space
+        for voices from different backgrounds, cultures, and viewpoints to be
+        heard. We are committed to fostering inclusivity and representing the
+        diverse communities we serve—encouraging dialogue, understanding, and
+        empathy.
       </p>
 
-      <p className="my-2 font-semibold text-xl">
-        Engaging Features: Beyond news articles, our website offers engaging
-        features such as opinion pieces, in-depth investigative reports,
-        thought-provoking editorials, and captivating human interest stories. We
-        aim to captivate our readers with well-crafted narratives that not only
-        inform but also inspire, entertain, and spark meaningful conversations.
+      {/* Engaging Features */}
+      <h2 className="text-2xl font-semibold mb-2">Engaging Features</h2>
+      <p className="mb-6">
+        Beyond traditional news, our website features opinion pieces,
+        investigative reports, thought-provoking editorials, and compelling
+        human-interest stories. We strive to engage our audience with narratives
+        that inform, inspire, entertain, and spark meaningful conversations.
       </p>
 
-      <p className="my-2 font-semibold text-xl">
-        Community Focus: At The dragon news, we value our community. We actively
-        engage with our readers through feedback, comments, and social media
-        interactions. We strive to be a platform that reflects the interests and
-        concerns of our community, highlighting local news and events that
-        matter to you.
+      {/* Community Focus */}
+      <h2 className="text-2xl font-semibold mb-2">Community Focus</h2>
+      <p className="mb-6">
+        At <strong>The News Times</strong>, we value our community. We actively
+        engage with readers through comments, feedback, and social media. Our
+        coverage reflects the interests and concerns of the communities we
+        serve—highlighting local news and events that matter to you.
       </p>
 
-      <p className="my-2 font-semibold text-xl">
-        Technology and Innovation: We embrace the ever-evolving digital
-        landscape and leverage technology and innovation to enhance our news
-        delivery. Our website features user-friendly navigation, mobile
-        responsiveness, multimedia content, and interactive elements that make
-        your news reading experience seamless and enjoyable.
+      {/* Technology and Innovation */}
+      <h2 className="text-2xl font-semibold mb-2">
+        Technology and Innovation
+      </h2>
+      <p className="mb-6">
+        We embrace the evolving digital landscape and leverage modern
+        technologies to enhance your news experience. Our platform offers
+        seamless navigation, mobile responsiveness, multimedia content, and
+        interactive features designed for a smooth and engaging reading
+        experience.
       </p>
 
-     <p className="my-2 font-semibold text-xl">
-        Join Us: We invite you to join our community of engaged readers who seek
-        reliable news and information. Explore our website, read our articles,
-        and be part of the conversation. Stay connected with us through our
-        newsletter, social media channels, and mobile app to receive the latest
-        updates right at your fingertips.
+      {/* Join Us */}
+      <h2 className="text-2xl font-semibold mb-2">Join Us</h2>
+      <p className="mb-6">
+        We invite you to join our growing community of readers who seek reliable
+        information and meaningful content. Explore our website, stay updated
+        through our newsletter, and connect with us on social media to receive
+        the latest news right at your fingertips.
       </p>
 
-     <p className="my-2 font-semibold text-xl">
-        Thank you for choosing The dragon news as your trusted source for news.
-        We are committed to delivering news that matters to you and making a
-        positive impact in the communities we serve.
+      <p className="font-medium mt-8">
+        Thank you for choosing <strong>The News Times</strong> as your trusted
+        source for news. We remain committed to delivering news that matters and
+        making a positive impact in the communities we serve.
       </p>
-
-      <h4>- The Dragon News Team</h4>
     </div>
   );
 };
